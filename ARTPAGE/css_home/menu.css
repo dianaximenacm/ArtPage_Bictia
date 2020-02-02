@@ -1,0 +1,93 @@
+.iconobitart{
+    background-color: #000000;
+    margin:auto;
+    text-align: center;
+    padding-top: 15px;
+}
+.img_logo{
+    width: 150px;
+    height: 200px;
+    
+}
+.main_header{
+    width: 100%;
+    height: 110px;
+    background-color:#000000;
+    font-size: 23px;
+    font-family: Segoe Print;
+    text-align: center;
+    margin-top: -8px;
+}
+.icono_menu{
+    padding-top: 30px;
+
+}
+/* Para ocultar el boton del menu clickeable*/
+#boton_menu{
+display: none;
+}
+/* Seudoclase desencendiente */
+header label{
+display: none;
+    width: 100px;
+    padding: 10px;
+    border-right: 1px solid white;
+}
+
+header label:hover{
+cursor: pointer;
+background: salmon;
+}
+.menu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-flex;
+}
+.menu li{
+    padding: 20px 50px 0px 50px;
+ /*  desde arriba como las manecillas del reloj*/
+
+}
+/*  padding-top: 15px;
+padding-right: 20px;*/
+
+.menu li a:hover{
+    color: salmon;
+    text-decoration: overline;
+}
+/* Para quitar decoraciones del texto en el menu */
+.menu li a {
+    text-decoration: none;
+    padding: 15px;
+    color: snow;
+}
+/* Cambia segun el tamaño del dispositivo */
+/* condiciones en () y regla en { }*/
+@media (max-width:920px){
+
+    header label{
+        display: block;
+        height: 70px;
+    }
+        .menu {
+        position: absolute;
+        background: salmon;
+        width: 100%;
+        margin-left: -100%;
+        transition: all 0.9s;
+        z-index: 100;
+    }
+   
+    .menu ul {
+        /* Selector avanzado */
+        display: block;
+    }
+    #boton_menu:checked ~ .menu{
+        margin: 0px;
+    }
+    .menu li:hover{
+background: #000000;
+    }
+}
+

@@ -1,0 +1,191 @@
+<!-- EXTENSIONES
+    PARA QUE APAREZCA EL COLOR EN LOS CORCHETES Bracket Pair Colorizer
+coenraads.bracket-pair-colorizer
+PARA NO ESTAR ACTUALIZANDO INSTALAR "LIVE SERVER" 
+PARA CAMBIAR LOS COLORES DEL WOKSPACE "PREFERENCE/COLORTHEME PREFEIDO DRACULA
+PARA CAMBIAR LOS KEYBOARD SHORTCUTS "POR EJEMPLO PARA HACER COMENTARIOS RAPIDO CTRL+K"  -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Inicio</title>
+        <link rel="stylesheet" href="../ARTPAGE/css_home/menu.css">
+        <link rel="stylesheet" href="../ARTPAGE/css_home/slider.css">
+        <link rel="stylesheet" href="../ARTPAGE/css_home/contenido.css">
+        <link rel="stylesheet" href="../ARTPAGE/css_home/footer.css">
+        <link rel="stylesheet" href="estilosobras.css">
+
+    </head>
+<body>
+   <header class="iconobitart">
+       <!--Dentro del header puedo poner :
+    Imagenes
+    Listas
+    Links o hipervinculos  -->
+    <!--IMAGENES DE LOGO-->
+        <img class="img_logo" src="../ARTPAGE/recursos/iconos/iconobitart.png" alt="logoBitart">
+    </header>
+
+    <!--BOTON PARA RESPONSIVE - ES DECIR QUE EL ICONO APARSCA CUANDO LA PAGINA ES PEQUEÑA-->
+    <header class="main_header">
+        <!-- INPUT campo de entrada de ingreso de datos-->
+        <input type="checkbox" id="boton_menu">
+    <!-- mejor accesibilidad de input-->
+        <label class="icono_menu" for="boton_menu">
+    <!-- para ocultar barra se puede usar ctrl + b-->
+        <img src="../ARTPAGE/recursos/iconos/iconomenu.png" alt="iconomenu" width="35px" height="35px">
+    </label>
+    <!--LISTA DEL menú-->
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Inicio </a></li>
+            <li><a href="../ARTPAGE/obras/obras.html"> Obras </a></li>
+        </ul>
+
+    </nav>
+</header>
+
+<section class="slider">
+
+<article>
+    <ul class="slider-portada">
+    <li>
+        <input type="radio" id="sbutton1" name="sradio" checked> 
+        <!--name se usa para categorizar el input
+        checked para que aperezca seleccionado--> 
+        <label for="sbutton1"></label>
+        <img src="../ARTPAGE/recursos/imagenes/obra1.jpg" alt="obra1">
+    </li>
+    <li>
+        <input type="radio" id="sbutton2" name="sradio" > 
+        <!--name se usa para categorizar el input-->
+        <label for="sbutton2"></label>
+        <img src="../ARTPAGE/recursos/imagenes/obra2.jpg" alt="obra2">
+    </li>
+    <li>
+        <input type="radio" id="sbutton3" name="sradio" > 
+        <!--name se usa para categorizar el input-->
+        <label for="sbutton3"></label>
+        <img src="../ARTPAGE/recursos/imagenes/obra3.jpg" alt="obra3">
+    </li>
+
+    <li>
+        <input type="radio" id="sbutton4" name="sradio" > 
+        <!--name se usa para categorizar el input-->
+        <label for="sbutton4"></label>
+        <img src="../ARTPAGE/recursos/imagenes/obra4.jpg" alt="obra4">
+    </li>
+    </ul>    
+</article>
+</section>
+
+<article class="bloquetitulo">
+    <h1>Bienvenido a Bitart</h1>
+    <br>
+    <section class="parrafotitulo1">
+    <p>EN BITART estamos convencidos de que el arte debe <br>
+    formar parte de la vida de todos, por eso es una plataforma <br>
+    para aficionados al arte y así mismo para ti. Conoce <br>
+    obras de arte famosas y los pintores más destacados del mundo <br>
+</p>
+<div class="iconosart">
+ <img src="../ARTPAGE/recursos/iconos/milo-venus.png" alt="iconoswlbloque">
+</div>
+</section>
+</article>
+
+<article class=bloquetitulo2>
+    <h1>Pintores destacados de la historia</h1>
+<section class=parrafotitulo2>
+    <hr width="600px" color="Salmon">
+ 
+   <p>Cuando el arte es un placer <br>
+    El arte les brinda un medio a las personas <br>
+    para expresarse, ya que puede ser utilizado para <br>
+    difundir ideas, emociones, opiniones o creencias. <br>
+    Dali, Davinci, Van Gogh entre otros <br> 
+    siendo los pintores más destacados de la historia <br>
+    simplemente haz <span style="color:salmon">click</span>
+    en el video. <br>
+</p>   
+</section>
+<section class="videopintores">
+    <video src="../ARTPAGE/recursos/video/videopintores.mp4" width="510" height="365" controls></video>
+
+</section>
+</article>
+
+<figure class="fotografia">
+
+    <img src="../ARTPAGE/recursos/imagenes/bobross.jpg" alt="bobross" class=fotobob>
+
+    <i><q>
+     No cometetemos errores, simplemente tenemos accidentes felices. 
+    </q></i><br>
+    <p>-Bob Ross</p>   
+</figure>
+
+<footer>
+<section class="partefooter">
+
+    <h1 class="titulomapa">
+        También puedes ubicarnos y contactarnos:
+    </h1>
+
+<div class="contenidof">
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7953.701285760087!2d-74.0642163!3d4.620722300000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1579787426277!5m2!1ses!2sco" 
+width="600" height="450" frameborder="0" style="border:0;border-radius: 15px;" allowfullscreen=""></iframe>
+<form action="">
+
+
+
+<h2>
+    CONTACTO
+</h2>
+<input type="text" 
+name="nombre"
+placeholder="Nombre"
+maxlength="35">
+<input type="email"
+name="correo"
+placeholder="Correo"
+>
+<input type="number"
+name="telefono"
+placeholder="Teléfono">
+<textarea name="Mensaje" cols="10" rows="1" placeholder="Escriba aquí su mensaje"></textarea>
+
+<input type="button" id="boton" value="Enviar"> 
+
+
+</form>
+
+</div>
+</section>
+<div class="contenidoiconos">
+    <!-- Linea con hr -->
+    <hr width="85%" color="salmon">
+    <div class="iconosredes" >
+        <div class="ajusteicono">
+            <a href="https://www.twitter.com/Bictia/" target="_blank" ><img src="../ARTPAGE/recursos/iconos/twitter.png" alt="icono_twitter" srcset=""></a>
+            <a href="https://www.facebook.com/Bictia/" target="_blank"> <img src="../ARTPAGE/recursos/iconos/facebook.png" alt="icono_facebook" srcset=""></a>
+            <a href="https://www.instagram.com/bictia/?hl=es-la" target="_blank"> <img src= "../ARTPAGE/recursos/iconos/instagram.png" alt="icono_facebook" srcset=""></a>
+       
+    </div>
+        <div class="textofooter">
+        <p> ©COPYRIGHT 2020 Bogotá Bictia Institute of technology
+        <br>
+        TODOS LOS DERECHOS RESERVADOS. BOGOTÁ-BICTIA-COLOMBIA
+        </p>
+        </div> 
+    </div> 
+</div>
+
+</footer>
+
+</body>
+</html>

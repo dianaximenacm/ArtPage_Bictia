@@ -1,0 +1,97 @@
+footer{
+    width: 100%;
+
+}
+.iconosredes{
+    text-align: center;
+    
+}
+.ajusteicono{
+    display: inline-flex;
+    margin:50px 35px;
+}
+.ajusteicono img{
+    padding: 25px;
+}
+.textofooter{
+    padding-top: 8px;
+    width: 100%;
+    font-family: cursive;
+    text-align: center;
+    font-size: 15px;
+    background-color: salmon;
+    height: 80px;
+    color: snow;
+}
+
+.titulomapa{
+    color: black;
+    text-align: center;
+    font-family: Segoe Print;
+    font-size: 30px;
+    padding: 35px 0 15px 0;
+}
+.partefooter{
+background-color: salmon;
+padding: 50px;
+display: inline block;
+}
+form{
+    margin-left: 50px;
+    width: 500px;
+    height: 550px;
+    background: rgba(0, 0, 0, 4);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    font-family: Segoe Print;
+    /* Position: Puedo ubicar los elementos
+    para evitar las margenes (position: relative;
+    left: 15%;) */
+    justify-content: center;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    font-family: segoe print;
+    border-radius: 5px;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 2000px;
+    max-width: 100%;
+}
+#boton{
+    background: salmon;
+    color: black;
+    padding: 20px;
+}
+#boton:hover{
+    cursor: pointer;
+    background-color:white;
+    color: salmon;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+.contenidof{
+    display: flex;
+    justify-content: center;
+
+}
+iframe{
+ 
+    margin-top: 20px;
+    width: 500px;
+    height: 550px;
+}
+.contenidoiconos{
+    margin-top: 150px;
+}

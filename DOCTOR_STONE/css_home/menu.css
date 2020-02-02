@@ -1,0 +1,88 @@
+
+.doctoricono{
+    text-align: center;
+    padding-top: 15px;
+    width: 100%;
+    height: 80px;
+    margin-top: -8px;
+    background-color: #333333;
+    margin: auto;
+}
+.img-logo{
+    padding: 10px;
+    margin-left: 30px;
+    float: left;
+}
+
+.menu{
+    width: none;
+    float: right;
+    background-color: #333333;
+    font-family:'Bowlby One SC', cursive;
+    font-size: 40px;
+    
+ 
+}
+.menu ul{
+    padding-top: 15px;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu li a{
+        text-decoration: none;
+        color:  #FF6800;
+        padding: 50px;
+      
+}
+.menu ul li:hover{
+background-color: white;
+transition: 0.8s all;
+border-radius: 1px;
+}
+
+/* Para ocultar el boton del menu clickeable*/
+#botonmenu{
+    display: none;
+    }
+    /* Seudoclase desencendiente */
+    header label{
+    display: inline-block;
+    }
+    
+    header label:hover{
+    cursor: pointer;
+    background: white;
+    }
+    
+    /* Cambia segun el tamaño del dispositivo */
+    /* condiciones en () y regla en { }*/
+    @media (max-width:920px){
+    
+        header label{
+            display: block;
+            height: 70px;
+        }
+            .menu {
+            position: absolute;
+            background: white;
+            width: 100%;
+            margin-left: -100%;
+            transition: all 0.9s;
+            z-index: 100;
+        }
+       
+        .menu ul {
+            /* Selector avanzado */
+            display: block;
+        }
+        #botonmenu:checked ~ .menu{
+            margin: 0px;
+        }
+        .menu li:hover{
+    background: yellow;
+        }
+    }
+    
+    
