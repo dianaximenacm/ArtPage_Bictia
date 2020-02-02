@@ -21,7 +21,6 @@ function nombre_funcion (){
 
 }
 
-
 funcion datosUsuario(){
     var nombre = prompt ("ingrese un nombre");
     alert ("tu nombre es " + nombre)

@@ -1,5 +1,4 @@
 var cantidad1= parseInt(prompt("Primera cantidad"));
-
 var cantidad2= parseInt(prompt("Segunda cantidad"));
 var Pregunta= prompt("que programa desea ejecutar? calculadora,comparacion");
 
